@@ -1,4 +1,44 @@
-#circle {
-    width: 200px;
-    height: 200px;
+.center-thin {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.justify-thin {
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.top-s-pad {
+    padding-top: 10px;
+}
+
+.rounded-circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 100%;
+    padding: 10px;
+}
+
+.small {
+    width: 50%;
+}
+/* Hyperlink Style */
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(78, 78, 78);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    font-style: italic;
 }
