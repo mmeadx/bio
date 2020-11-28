@@ -23,11 +23,19 @@
 .small {
     width: 50%;
 }
+
+.button {
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+}
 /* Hyperlink Style */
 
 a:link {
     color: black;
-    background-color: transparent;
+    /* background-color: transparent; */
     text-decoration: none;
 }
 
