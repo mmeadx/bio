@@ -35,29 +35,35 @@ h1 {
     width:75%;
     text-align: center;
 }
-
+#look {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: #157a37;
+}
 #look:hover {
-    font-style: italic;
+    color: #bbb81f;
 }
 
 #short-stack {
     margin-top: 0px;
 }
 
-.talk {
-    background: url("/static/assets/letstalk01.png");
-    display: inline-block;
-    height: 100px;
-    width: 100px;
+a:link {
+    text-decoration: none;
+    color: #ffffff;
 }
-
-.talk:hover {
-    background: url("/static/assets/letstalk02.png");
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    transition: .5s;
+#talk {
+    background-color: black;
+    width: 0px;
+    display: inline;
+    padding: 10px;
+    border-radius: 50px;
 }
 #talk:hover {
+    background-color: #ffffff;
+    color: #000000;
     transition: .5s;
 }
+
+
+
