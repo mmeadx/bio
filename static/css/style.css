@@ -1,52 +1,63 @@
-.center-thin {
+/* Global Changes */
+
+body {
+    margin: 0;
+    background-color: #ffffff;
     text-align: center;
-    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.justify-thin {
-    text-align: justify;
-    font-weight: lighter;
+.top {
+    background-color: #ffffff;
+    position: relative;
+    padding-top: 100px;
 }
 
-.top-s-pad {
-    padding-top: 10px;
+h1 {
+    margin: 0 auto 0 auto; /* This centers where a width value is set */
+    font-family: 'Roboto', sans-serif;
 }
 
-.rounded-circle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;   
-    width: 100%;
-    padding: 10px;
+.icon {
+    height: 40px;
+    width: 40px;
 }
 
-.small {
-    width: 50%;
+#prof-pic {
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
 }
 
-.button {
-    border-radius: 15px;
-    border-width: 1px;
-    border-style: solid;
-    padding: 10px;
-    background-color: rgb(245, 245, 245);
-}
-/* Hyperlink Style */
-
-a:link {
-    color: black;
-    /* background-color: transparent; */
-    text-decoration: none;
+#desc {
+    position: relative;
+    margin: auto;
+    width:75%;
+    text-align: center;
 }
 
-a:visited {
-    color: rgb(78, 78, 78);
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: transparent;
-    text-decoration: none;
+#look:hover {
     font-style: italic;
+}
+
+#short-stack {
+    margin-top: 0px;
+}
+
+.talk {
+    background: url("/static/assets/letstalk01.png");
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.talk:hover {
+    background: url("/static/assets/letstalk02.png");
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    transition: .5s;
+}
+#talk:hover {
+    transition: .5s;
 }
