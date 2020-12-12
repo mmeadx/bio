@@ -45,14 +45,14 @@ h1 {
 }
 
 .talk {
-    background: url("/static/assets/letstalk01.png");
+    background: url("./static/assets/letstalk01.png");
     display: inline-block;
     height: 100px;
     width: 100px;
 }
 
 .talk:hover {
-    background: url("/static/assets/letstalk02.png");
+    background: url("./static/assets/letstalk02.png");
     display: inline-block;
     height: 100px;
     width: 100px;
