@@ -34,6 +34,7 @@ h1 {
     margin: auto;
     width:75%;
     text-align: center;
+    line-height: 2;
 }
 #look {
     font-family: 'Courier New', Courier, monospace;
@@ -54,15 +55,19 @@ a:link {
 }
 #talk {
     background-color: black;
-    width: 0px;
     display: inline;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 #talk:hover {
     background-color: #ffffff;
     color: #000000;
     transition: .5s;
+}
+
+#name-head {
+    font-size: 3rem;
+    margin: 50px auto 0 auto;
 }
 
 
