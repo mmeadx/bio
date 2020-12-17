@@ -71,6 +71,17 @@ a:link {
     text-decoration: none;
     color: #ffffff;
 }
+
+a:visited {
+    color: rgb(233, 233, 233);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.dark-link:visited {
+    color: black;
+}
+
 #talk {
     background-color: black;
     display: inline;
