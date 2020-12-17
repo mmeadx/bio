@@ -1,4 +1,5 @@
-/* Global Changes */
+/* NAVBAR START */
+
 .navbar {
     height: 80px;
     background-color: rgb(31, 31, 31);
@@ -19,6 +20,11 @@
     font-size: 30px;
 }
 
+/* NAVBAR END */
+
+/* FULL PAGE */
+
+/* global */
 body {
     margin: 0;
     background-color: #ffffff;
@@ -26,20 +32,28 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: rgb(233, 233, 233);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* classes */
 .top {
     margin-top: 0;
     padding-top: 50px;
 }
 
-h1 {
-    margin: 0 auto 0 auto; /* This centers where a width value is set */
-    font-family: 'Roboto', sans-serif;
+a.dark-link:visited {
+    color: black;
 }
 
-.icon {
-    height: 40px;
-    width: 40px;
-}
+/* ids */
 
 #prof-pic {
     border-radius: 50%;
@@ -54,32 +68,19 @@ h1 {
     text-align: center;
     line-height: 2;
 }
+
 #look {
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     color: #157a37;
 }
+
 #look:hover {
     color: #bbb81f;
 }
 
 #short-stack {
     margin-bottom: 50px;
-}
-
-a:link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a:visited {
-    color: rgb(233, 233, 233);
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a.dark-link:visited {
-    color: black;
 }
 
 #talk {
@@ -100,13 +101,7 @@ a.dark-link:visited {
     font-family: 'Comfortaa', sans-serif;
 }
 
-#skills-header {
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: lighter;
-}
-.skills-title {
-    margin: 50px auto 50px auto;
-}
+/* skills section */
 
 .webdev {
     width: 60%;
@@ -138,8 +133,15 @@ a.dark-link:visited {
     margin-right: 10px;
 }
 
+
+
+/* FOOTER START */
+
 .contact-me {
     margin: 30px auto auto auto;
 }
 
-
+.icon {
+    height: 40px;
+    width: 40px;
+}
