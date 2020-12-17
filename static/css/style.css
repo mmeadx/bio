@@ -49,8 +49,8 @@ h1 {
 
 #desc {
     position: relative;
-    margin: auto;
-    width:75%;
+    margin: 30px auto 30px auto;
+    width:65%;
     text-align: center;
     line-height: 2;
 }
@@ -64,7 +64,7 @@ h1 {
 }
 
 #short-stack {
-    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 a:link {
@@ -97,7 +97,49 @@ a.dark-link:visited {
 #name-head {
     font-size: 3rem;
     margin: 0px auto 0 auto;
+    font-family: 'Comfortaa', sans-serif;
 }
 
+#skills-header {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+}
+.skills-title {
+    margin: 50px auto 50px auto;
+}
+
+.webdev {
+    width: 60%;
+    margin: 100px auto 100px auto;
+}
+
+#webdev-skill {
+    float: left;
+    margin: 30px 20px auto auto;
+}
+
+.python {
+    width: 60%;
+    margin: 20px auto 100px auto;
+}
+
+#python-skill {
+    float: left;
+    margin-right: 30px;
+}
+
+.database {
+    width: 60%;
+    margin: 20px auto 100px auto;
+}
+
+#database-skill {
+    float: left;
+    margin-right: 10px;
+}
+
+.contact-me {
+    margin: 30px auto auto auto;
+}
 
 
