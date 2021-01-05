@@ -1,3 +1,13 @@
+/* LINKS */
+
+a.resume:visited, a.resume {
+    color: rgb(143, 143, 143);
+}
+
+a.resume:hover {
+    color: #cfb315;
+}
+
 /* NAVBAR START */
 
 .navbar {
@@ -16,6 +26,13 @@
     margin-top: 0;
 }
 
+.resume-title {
+    margin: 20px auto 0 auto;
+}
+
+.resume-links {
+    margin: 0 auto 20px auto;
+}
 #title {
     font-weight: lighter;
     font-size: 30px;
@@ -52,6 +69,15 @@ a:visited {
 
 a.dark-link:visited {
     color: black;
+}
+
+.edu {
+    margin: 0 auto 2px auto;
+    color: #757575;
+}
+
+.bio-title {
+    margin: 0 auto 5px auto;
 }
 
 /* ids */
@@ -104,6 +130,12 @@ a.dark-link:visited {
 
 #edu {
     padding-top: 0;
+}
+
+.story {
+    margin: auto;
+    text-align:justify;
+    width: 50%;
 }
 /* skills section */
 
