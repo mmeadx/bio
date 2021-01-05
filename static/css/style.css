@@ -130,6 +130,24 @@ cursor: pointer;
 color:white;
 }
 
+.column {
+    float: left;
+    width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.knowledge-bar {
+    margin-bottom: 0;
+}
+
+.mid {
+    margin: auto 20% auto 20%;
+}
 /* ONLY PROJECTS END ---------- */
 
 /* ---------- ONLY ABOUT START */
