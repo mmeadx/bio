@@ -1,0 +1,107 @@
+{
+    "basics": {
+        "name": "Matthew Mead",
+        "label": "Data Analyst and Full Stack Developer",
+        "picture": "",
+        "email": "mmeadx@gmail.com",
+        "phone": "(612) 247-0145",
+        "website": "http://www.mattmeadmpls.com",
+        "summary": "A summary of John Doe...",
+        "location": {
+            "address": "5421 Grand Ave. S",
+            "postalCode": "55419",
+            "city": "Minneapolis",
+            "countryCode": "US",
+            "region": "Minnesota"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "mattmeadmpls",
+                "url": "http://twitter.com/mattmeadmpls"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "mattmeadmpls",
+                "url": "https://www.linkedin.com/in/mattmeadmpls/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Company",
+            "position": "President",
+            "website": "http://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description...",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Minnesota - Twin Cities",
+            "area": "Art & Mass Communications",
+            "studyType": "Bachelor",
+            "startDate": "2006-09-01",
+            "endDate": "2010-06-01"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Hearst Award",
+            "date": "2009-02-10",
+            "awarder": "Hearst Foundation",
+            "summary": "The winners were selected from among 69 entries submitted from 41 schools nationwide.  The top four winners, along with the top four finalists in the other two photo competitions and two overall highest scorers, will submit additional photographs for the semi-final round of judging this June.  Six finalists will be chosen from that round to compete in the program’s National Photojournalism Championship, along with writing and broadcast finalists.
+
+            110 member universities of the Association of Schools of Journalism and Mass Communication with accredited undergraduate journalism programs are eligible to participate in the Hearst competitions."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Beginner"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Photojournalism",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ]
+}
