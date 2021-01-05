@@ -101,6 +101,9 @@ a.dark-link:visited {
     font-family: 'Comfortaa', sans-serif;
 }
 
+#edu {
+    padding-top: 0;
+}
 /* skills section */
 
 .webdev {
@@ -131,6 +134,30 @@ a.dark-link:visited {
 #database-skill {
     float: left;
     margin-right: 10px;
+}
+
+/* Project Buttons */
+
+.project {
+        outline: none;
+        border: 1px solid #313131;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1;
+        color: #303030;
+        border-radius: 15px;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: 10px;
+        background-color: white;
+}
+
+.project:hover {
+    background-color: #000000a6;
+    cursor: pointer;
+    color:white;
 }
 
 
