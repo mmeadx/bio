@@ -1,14 +1,15 @@
-/* LINKS */
+/* ---------- GLOBAL */
 
-a.resume:visited, a.resume {
-    color: rgb(143, 143, 143);
+body {
+    margin: 0;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a.resume:hover {
-    color: #cfb315;
-}
+/* GLOBAL END ---------- */
 
-/* NAVBAR START */
+/* ---------- NAVBAR START */
 
 .navbar {
     height: 80px;
@@ -26,119 +27,24 @@ a.resume:hover {
     margin-top: 0;
 }
 
-.resume-title {
-    margin: 20px auto 0 auto;
-}
-
-.resume-links {
-    margin: 0 auto 20px auto;
-}
 #title {
     font-weight: lighter;
     font-size: 30px;
 }
+/* NAVBAR END ---------- */
 
-/* NAVBAR END */
+/* ---------- ONLY INDEX START */
 
-/* FULL PAGE */
-
-/* global */
-body {
-    margin: 0;
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-a:link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a:visited {
-    color: rgb(233, 233, 233);
-    background-color: transparent;
-    text-decoration: none;
-}
-
-/* classes */
 .top {
     margin-top: 0;
     padding-top: 50px;
 }
-
-a.dark-link:visited {
-    color: black;
-}
-
-.edu {
-    margin: 0 auto 2px auto;
-    color: #757575;
-}
-
-.bio-title {
-    margin: 0 auto 5px auto;
-}
-
-/* ids */
 
 #prof-pic {
     border-radius: 50%;
     height: 20%;
     width: 20%;
 }
-
-#desc {
-    position: relative;
-    margin: 30px auto 30px auto;
-    width:65%;
-    text-align: center;
-    line-height: 2;
-}
-
-#look {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    color: #157a37;
-}
-
-#look:hover {
-    color: #bbb81f;
-}
-
-#short-stack {
-    margin-bottom: 50px;
-}
-
-#talk {
-    background-color: black;
-    display: inline;
-    padding: 10px;
-    border-radius: 30px;
-}
-#talk:hover {
-    background-color: #ffffff;
-    color: #000000;
-    transition: .5s;
-}
-
-#name-head {
-    font-size: 3rem;
-    margin: 0px auto 0 auto;
-    font-family: 'Comfortaa', sans-serif;
-}
-
-#edu {
-    padding-top: 0;
-}
-
-.story {
-    margin: auto;
-    text-align:justify;
-    width: 50%;
-    text-indent: 1rem;
-}
-/* skills section */
 
 .webdev {
     width: 60%;
@@ -170,33 +76,126 @@ a.dark-link:visited {
     margin-right: 10px;
 }
 
-/* Project Buttons */
+#name-head {
+    font-size: 3rem;
+    margin: 0px auto 0 auto;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#look {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: #157a37;
+}
+
+#look:hover {
+    color: #bbb81f;
+}
+
+#short-stack {
+    margin-bottom: 50px;
+}
+
+#desc {
+    position: relative;
+    margin: 30px auto 30px auto;
+    width:65%;
+    text-align: center;
+    line-height: 2;
+}
+
+/* ONLY INDEX END---------- */
+
+/* ---------- ONLY PROJECTS START */
 
 .project {
-        outline: none;
-        border: 1px solid #313131;
-        font-size: 1rem;
-        font-family: 'Montserrat', sans-serif;
-        line-height: 1;
-        color: #303030;
-        border-radius: 15px;
-        display: inline-block;
-        width: 150px;
-        height: 150px;
-        text-align: center;
-        margin: 10px;
-        background-color: white;
+    outline: none;
+    border: 1px solid #313131;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    color: #303030;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
 }
 
 .project:hover {
-    background-color: #000000a6;
-    cursor: pointer;
-    color:white;
+background-color: #000000a6;
+cursor: pointer;
+color:white;
 }
 
+/* ONLY PROJECTS END ---------- */
 
+/* ---------- ONLY ABOUT START */
 
-/* FOOTER START */
+.resume-title {
+    margin: 20px auto 0 auto;
+}
+
+.resume-links {
+    margin: 0 auto 20px auto;
+}
+
+#edu {
+    padding-top: 0;
+}
+
+.edu {
+    margin: 0 auto 2px auto;
+    color: #757575;
+}
+
+.story {
+    margin: auto;
+    text-align:justify;
+    width: 50%;
+    text-indent: 1rem;
+}
+
+.bio-title {
+    margin: 0 auto 5px auto;
+}
+
+/* ONLY ABOUT END ---------- */
+
+/* --------- LINK START */
+
+a.resume:visited, a.resume {
+    color: rgb(143, 143, 143);
+}
+
+a.resume:hover {
+    color: #cfb315;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: rgb(233, 233, 233);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.dark-link:visited, a.dark-link:link {
+    color: black;
+}
+
+a.dark-link:hover {
+    color: #cfb315;
+}
+
+/* LINK END ---------- */
+
+/* ---------- FOOTER START */
 
 .contact-me {
     margin: 30px auto auto auto;
@@ -206,3 +205,17 @@ a.dark-link:visited {
     height: 40px;
     width: 40px;
 }
+
+#talk {
+    background-color: black;
+    display: inline;
+    padding: 10px;
+    border-radius: 30px;
+}
+#talk:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: .5s;
+}
+
+/* FOOTER END ---------- */
