@@ -166,7 +166,7 @@ color:white;
 
 /* --------- LINK START */
 
-a.resume:visited, a.resume {
+a.resume:visited, a.resume:link {
     color: rgb(143, 143, 143);
 }
 
