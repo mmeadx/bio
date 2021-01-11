@@ -148,6 +148,30 @@ color:white;
 .mid {
     margin: auto 20% auto 20%;
 }
+
+.js:hover {
+    background-color: #ada31096;
+}
+
+.javascript {
+    color: #ada310;
+}
+
+.py:hover {
+    background-color: #071ea396;
+}
+
+.python {
+    color: #071fa3;
+}
+
+.db:hover {
+    background-color: #3d1cb896;
+}
+
+.database {
+    color: #3d1cb8;
+}
 /* ONLY PROJECTS END ---------- */
 
 /* ---------- ONLY ABOUT START */
