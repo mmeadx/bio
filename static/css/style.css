@@ -104,6 +104,25 @@ body {
     line-height: 2;
 }
 
+.skillz {
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.tech {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(66, 66, 66);
+    margin: 3px;
+    padding: 3px;
+}
+
+.nopad {
+    margin:0;
+}
+
 /* ONLY INDEX END---------- */
 
 /* ---------- ONLY PROJECTS START */
