@@ -1,12 +1,24 @@
 {
     "basics": {
         "name": "Matthew Mead",
-        "label": "Data Analyst and Full Stack Developer",
-        "picture": "",
+        "label": [
+            { 
+                "data": "Data Analyst and Full Stack Developer",
+                "software": "Software Engineer and Full Stack Developer",
+                "creative": "Content Creator and Full Stack Developer"
+            }
+        ],
+        "picture": "https://mmeadx.github.io/bio/static/assets/mattmead.jpeg",
         "email": "mmeadx@gmail.com",
         "phone": "(612) 247-0145",
         "website": "http://www.mattmeadmpls.com",
-        "summary": "A summary of John Doe...",
+        "summary": [
+            {
+                "tech": "I am a full stack developer, data analyst and content creator who is always wanting to learn about how things work and why they were created in the first place. Coming from a nearly decade-long journey in the journalism field, I feel that the transition to data analytics and full stack development is a natural one - both require extreme curiosity, a willingness to learn new skills and an ability to be a creative and adaptive problem solver.",
+                "creative": "I am a Content Creator who strives to accurately tell stories in an interesting and easy to understand way. With a Bachelor's degree from the University of Minnesota in Art and Mass Communications as well as a certificate in Data Analytics and Visualization, I am an adaptive and fast learner that is highly motivated by wanting to know more. I am excited by gathering facts from data and presenting them in way everyone can understand."
+            }
+        ],
+        "elevatorpitch": "I am an extremely adaptive and fast learner that is highly motivated by wanting to know how things connect. With experience in both the creative and data world, I can bring a new perspective.",
         "location": {
             "address": "5421 Grand Ave. S",
             "postalCode": "55419",
@@ -24,20 +36,59 @@
                 "network": "LinkedIn",
                 "username": "mattmeadmpls",
                 "url": "https://www.linkedin.com/in/mattmeadmpls/"
+            },
+            {
+                "network": "GitHub",
+                "username": "mmeadx",
+                "url": "https://github.com/mmeadx"
+            },
+            {
+                "network": "Instagram",
+                "username": "mattmeadmpls",
+                "url": "https://www.instagram.com/mattmeadmpls/"
             }
         ]
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": [
-                "Started the company"
-            ]
+            "company": "Matt Mead MPLS",
+            "position": ["Owner"],
+            "website": "https://www.mattmeadmpls.com/",
+            "startDate": "2010-06-01",
+            "endDate": "Still Employed",
+            "summary": "Work with a wide variety of clients on a freelance basis to capture, edit and package visual stories on a deadline. Maintain a database of client information and archive of 1M+ media files."
+        },
+        {
+            "company": "Twin Cities PBS",
+            "position": ["Production Coordinator", "Producer", "Assistant Director"],
+            "website": "https://www.tpt.org/",
+            "startDate": "2018-05-01",
+            "endDate": "Still Employed",
+            "summary": "Facilitated production schedule, billing and communication with all crew members and subjects. Produce both new and archival content for website. Assist in directing and producing weekly hour-long political show"
+        },
+        {
+            "company": "Spacecrafting",
+            "position": ["Photographer", "Post-Production"],
+            "website": "https://www.spacecrafting.com/",
+            "startDate": "2016-02-01",
+            "endDate": "2017-05-31",
+            "summary": "Retouched architectural photographs on a strict daily deadline. Photographed clients for various uses, including magazines and business websites."
+        },
+        {
+            "company": "Escutcheon Brewing Co.",
+            "position": ["Design", "Sales", "Management", "Social Media and Events"],
+            "website": "https://escutcheonbrewing.com/",
+            "startDate": "2015-01-01",
+            "endDate": "2015-09-30",
+            "summary": "Managed all facets of brewery operation within a budget and with limited staff while abiding by local, state and national rules and regulations. Implemented standard operating procedures still in use today."
+        },
+        {
+            "company": "Aston Technologies",
+            "position": ["High Level Cisco Engineer"],
+            "website": "https://astontech.com/",
+            "startDate": "2011-06-01",
+            "endDate": "2012-12-31",
+            "summary": "Worked with UnitedHealth Group project managers, clients and other engineers to provide IPT services and continued support to locations worldwide. Created and maintained program for BAT installations using VBS."
         }
     ],
     "education": [
@@ -47,25 +98,193 @@
             "studyType": "Bachelor",
             "startDate": "2006-09-01",
             "endDate": "2010-06-01"
+        },
+        {
+            "institution": "University of Minnesota - Twin Cities",
+            "area": "Data Analytics and Visualization",
+            "studyType": "Certificate",
+            "startDate": "2020-06-01",
+            "endDate": "2020-12-06"
         }
     ],
-    "awards": [
+    "highlevel": [
         {
-            "title": "Hearst Award",
-            "date": "2009-02-10",
-            "awarder": "Hearst Foundation",
-            "summary": "The winners were selected from among 69 entries submitted from 41 schools nationwide.  The top four winners, along with the top four finalists in the other two photo competitions and two overall highest scorers, will submit additional photographs for the semi-final round of judging this June.  Six finalists will be chosen from that round to compete in the program’s National Photojournalism Championship, along with writing and broadcast finalists."
+            "name": "Python",
+            "type": "language"
+        },
+        {
+            "name": "javaScript",
+            "type": "language"
+        },
+        {
+            "name": "HTML",
+            "type": "language"
+        },
+        {
+            "name": "CSS",
+            "type": "language"
+        },
+        {
+            "name": "SQL",
+            "type": "relational database"
+        },
+        {
+            "name": "MongoDB",
+            "type": "non-relational database"
         }
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "name": "VS Code",
+            "type": "tech"
+        },
+        {
+            "name": "Atom",
+            "type": "tech"
+        },
+        {
+            "name": "Node.js",
+            "type": "tech"
+        },
+        {
+            "name": "React.js",
+            "type": "tech"
+        },
+        {
+            "name": "npm",
+            "type": "tech"
+        },
+        {
+            "name": "Express.js",
+            "type": "tech"
+        },
+        {
+            "name": "jQuery",
+            "type": "tech"
+        },
+        {
+            "name": "D3.js",
+            "type": "tech"
+        },
+        {
+            "name": "EJS",
+            "type": "tech"
+        },
+        {
+            "name": "Leaflet",
+            "type": "tech"
+        },
+        {
+            "name": "APIs",
+            "type": "tech"
+        },
+        {
+            "name": "jupyter notebook",
+            "type": "tech"
+        },
+        {
+            "name": "Pandas",
+            "type": "tech"
+        },
+        {
+            "name": "MatPlotLib",
+            "type": "tech"
+        },
+        {
+            "name": "ETL",
+            "type": "tech"
+        },
+        {
+            "name": "Flask Servers",
+            "type": "tech"
+        },
+        {
+            "name": "PostgreSQL",
+            "type": "tech"
+        },
+        {
+            "name": "SQLAlchemy",
+            "type": "tech"
+        },
+        {
+            "name": "Git",
+            "type": "tech"
+        },
+        {
+            "name": "Heroku",
+            "type": "tech"
+        },
+        {
+            "name": "Bootstrap",
+            "type": "tech"
+        },
+        {
+            "name": "Codepen.io",
+            "type": "tech"
+        },
+        {
+            "name": "Wordpress",
+            "type": "blend"
+        },
+        {
+            "name": "Adobe Editing Software",
+            "type": "creative"
+        },
+        {
+            "name": "Final Cut Pro X",
+            "type": "creative"
+        },
+        {
+            "name": "Photo Mechanic",
+            "type": "creative"
+        },
+        {
+            "name": "Soundslides",
+            "type": "creative"
+        },
+        {
+            "name": "Audacity",
+            "type": "creative"
+        },
+        {
+            "name": "Microsoft Office",
+            "type": "blend"
+        },
+        {
+            "name": "Nikon",
+            "type": "creative"
+        },
+        {
+            "name": "Fuji Film",
+            "type": "creative"
+        },
+        {
+            "name": "Aerial Photography - FAA Part 107 Licensed",
+            "type": "creative"
+        },
+        {
+            "name": "Problem Solver",
+            "type": "soft"
+        },
+        {
+            "name": "Creative",
+            "type": "soft"
+        },
+        {
+            "name": "Self Starter",
+            "type": "soft"
+        },
+        {
+            "name": "Organized",
+            "type": "soft"
+        },
+        {
+            "name": "Team Player",
+            "type": "soft"
+        },
+        {
+            "name": "Adaptive",
+            "type": "soft"
         }
     ],
     "languages": [
@@ -74,23 +293,76 @@
             "fluency": "Native speaker"
         },
         {
-            "language": "English",
+            "language": "ASL",
             "fluency": "Beginner"
         }
     ],
     "interests": [
         {
-            "name": "Photojournalism",
+            "name": "Cribbage",
             "keywords": [
-                "Ferrets",
-                "Unicorns"
+                "Card Games"
+            ]
+        },
+        {
+            "name": "Travel",
+            "keywords": [
+                "Iceland",
+                "England",
+                "France",
+                "Portugal",
+                "Spain",
+                "Morocco",
+                "Thailand",
+                "Cambodia",
+                "Vietnam",
+                "South Korea"
+            ]
+        },
+        {
+            "name": "Biking",
+            "keywords": [
+                "Trek",
+                "Surly"
+            ]
+        },
+        {
+            "name": "Beer",
+            "keywords": [
+                "Brewing"
             ]
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
-            "reference": "Reference..."
+            "name": "Emilio Bello",
+            "title": "Data Analyst",
+            "site": "https://www.linkedin.com/in/emilio-bello-09938760/"
+        },
+        {
+            "name": "Arthur Major",
+            "title": "Entrepreneur",
+            "site": "https://twitter.com/major_art?lang=en"
+        }
+    ],
+    "continueded" : [
+        {
+            "institution": "University of Minnesota - Twin Cities",
+            "course": "Data Analytics and Visualization",
+            "description": "Completed projects using real data sets from the worlds of finance, healthcare and government using Advanced Excel, Python, JavaScript, HTML5, CSS3, API Clients, Web Scraping, SQL, MongoDB, Tableau and Machine Learning.",
+            "link": "https://bootcamp.umn.edu/data/landing/?s=Google-Brand&msg_cv_scta=4&msg_cv_stbn=1&msg_cv_fcta=1&fqvar1=3&pkw=%2Buniversity%20%2Bof%20%2Bminnesota%20%2Bdata%20%2Banalytics&pcrid=461786372844&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-MINNESOTA%7CSEM%7CDATA%7C-%7COFL%7CTIER-1%7CALL%7CBRD%7CBMM%7CPrimary%7CGeneral&utm_term=%2Buniversity%20%2Bof%20%2Bminnesota%20%2Bdata%20%2Banalytics&s=google&k=%2Buniversity%20%2Bof%20%2Bminnesota%20%2Bdata%20%2Banalytics&utm_adgroupid=109269453038&utm_locationphysicalms=9019672&utm_matchtype=b&utm_network=g&utm_device=c&utm_content=461786372844&utm_placement=&gclid=Cj0KCQiAmfmABhCHARIsACwPRAC2-FJW37MjOiG06u6IZqW2ux2BWlYQwVtvcSD-uCP5GMnHcI0cvckaAmaBEALw_wcB&gclsrc=aw.ds"
+        },
+        {
+            "institution": "Udemy.com",
+            "course": "The Complete 2021 Web Development Bootcamp",
+            "description": "Fifty-five hour online bootcamp focusing on full-stack web developing using HTML, CSS, JavaScript, Node.js, React.js and MongoDB.",
+            "link": "https://www.udemy.com/share/101qYwAEEYeVpVTXgB/"
+        },
+        {
+            "institution":"Udemy.com",
+            "course": "SVG Animation with HTML, CSS & JavaScript",
+            "description": "One and a half hour online course focusing on SVG Animation using Codepen.io",
+            "link": "https://www.udemy.com/share/101sKeAEEYeVpVTXgB/"
         }
     ]
 }

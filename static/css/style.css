@@ -7,6 +7,18 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.fader {
+    animation: fadein 2s;
+}
+
+.slowFade {
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 /* GLOBAL END ---------- */
 
 /* ---------- NAVBAR START */
@@ -48,33 +60,21 @@ body {
 
 .webdev {
     width: 60%;
-    margin: 100px auto 100px auto;
-}
-
-#webdev-skill {
-    float: left;
-    margin: 30px 20px auto auto;
+    margin: 40px auto 50px auto;
 }
 
 .python {
     width: 60%;
-    margin: 20px auto 100px auto;
+    margin: 20px auto 50px auto;
 }
 
-#python-skill {
-    float: left;
-    margin-right: 30px;
-}
 
 .database {
     width: 60%;
-    margin: 20px auto 100px auto;
+    margin: 20px auto 70px auto;
 }
 
-#database-skill {
-    float: left;
-    margin-right: 10px;
-}
+
 
 #name-head {
     font-size: 3rem;
