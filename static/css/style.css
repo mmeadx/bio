@@ -7,6 +7,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.center {
+    text-align: center;
+    margin-top: 0;
+}
+
 .fader {
     animation: fadein 2s;
 }
@@ -49,7 +54,7 @@ body {
 
 .top {
     margin-top: 0;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #prof-pic {
@@ -61,17 +66,20 @@ body {
 .webdev {
     width: 60%;
     margin: 40px auto 50px auto;
+    display:inline-block;
 }
 
 .python {
     width: 60%;
     margin: 20px auto 50px auto;
+    display:inline-block;
 }
 
 
 .database {
     width: 60%;
     margin: 20px auto 70px auto;
+    display:inline-block;
 }
 
 
@@ -123,6 +131,27 @@ body {
     margin:0;
 }
 
+.explore-box {
+    background-color: rgb(31, 31, 31);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.exploring {
+    color: white;
+}
+
+.exp {
+    color:white;
+    border: solid white 1px;
+    display: inline-block;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 7px;
+}
 /* ONLY INDEX END---------- */
 
 /* ---------- ONLY PROJECTS START */
@@ -151,7 +180,7 @@ color:white;
 
 .column {
     float: left;
-    width: 33%;
+    width: 33.33%;
 }
 
 .row:after {
@@ -280,3 +309,6 @@ a.dark-link:hover {
 }
 
 /* FOOTER END ---------- */
+
+
+
