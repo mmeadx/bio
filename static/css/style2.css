@@ -236,6 +236,9 @@ html.dark i {
     .headshot {
         display: none;
     }
+    .toggle {
+        display: none;
+    }
 }
 
 
