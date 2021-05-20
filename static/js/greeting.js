@@ -9,11 +9,11 @@ if (currentTime >= 1 && currentTime <= 4) {
 } else if (currentTime >= 5 && currentTime <= 6) {
     greeting = "You're up early! Good morning!";
 } else if (currentTime >= 7 && currentTime <= 11) {
-    greeting = "Good monrning!";
+    greeting = "Good morning!";
 } else if (currentTime >= 12 && currentTime <= 16) {
     greeting = "Good afternoon!";
 } else if (currentTime == 17) {
-    greeting = "It's 5 O'Clock - why are you still working?";
+    greeting = "It's 5 o'clock - why are you still working?";
 } else {
     greeting = "Good evening!"
 }
