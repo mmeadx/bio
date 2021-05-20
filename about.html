@@ -5,11 +5,15 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>matt mead | about</title>
+    <title>matt mead | home</title>
     <link rel="icon" href="./static/assets/mattmeadicon.png">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
 
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/style2.css">
 
     <!-- Load in Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,84 +23,59 @@
 
 </head>
 
-<body>
+<body class="aboutPage">
 
     <!-- NAVBAR START -->
     <div class="navbar">
-        <h1 class="navbar-text"> <a href="projects.html">projects</a> | <span id="title"><a
-                    href="index.html">mm</a></span> | <a href="about.html">about</a> </h1>
+        <a href="./projects.html">projects</a>
+        <a href="./index.html" id="title"> mm </a>
+        <a href="#">about</a>
+        <button class="toggle"><i class="fas fa-moon"></i></button>
     </div>
     <!-- NAVBAR END -->
+    <img class="headshot" src="./static/assets/mattmead1.png" alt="">
 
+    <div class="about">
 
-    <div>
-        <br>
-        <h2 class="bio-title">My Story</h2>
+        <h1>My story</h1>
+        <hr width="20%">
+        <p>I am a data analyst, developer and content creator who is always wanting to learn about how things work and why they were created in the first place. Coming from a nearly decade-long journey in the journalism field, I believe the transition to the data analyst and developer role is a natural one - both require extreme curiosity, a willingness to learn new skills and an ability to be a creative and adaptive problem solver.</p>
+        <p>The best compliment I have ever recieved was when a friend said, "When you think of an idea - you just do it, even if you know you might fail." I prefer to struggle through problems and take each failure as an opportunity to learn. I will always try.</p>
+        <p>Although I have extreme Midwest pride - I was born and raised in Minnesota and now reside in South Minneapolis - I have a place in my heart for both the West and East Coast. My want for knowledge and extreme wanderlust has brought me to some remarkable places. Want to know more? <a href="mailto:mmeadx@gmail.com">Let's Connect.</a></p>
+
+        <h1>Education</h1>
+        <hr width="20%">
+
+        <h3>University of Minnesota - Twin Cities</h3>
         <hr width="5%">
-        <h4 class="story">I am a full stack developer and content creator who is always wanting to learn
-            about how things work and why they were created in the first place. Coming from a nearly decade-long journey
-            in the journalism field, I feel that the transition to full stack development is a
-            natural one - both require extreme curiosity, a willingness to learn new skills and an ability to be a
-            creative and adaptive problem solver.</h4>
-        <br>
-        <h4 class="story">Although I have extreme Midwest Pride - being born and raised in Minnesota and now residing in
-            South Minneapolis - I have a place in my heart for both the West and the East Coast as well as South East
-            Asia. My want for knowledge along with an extreme wanderlust has put me in some fun situations. Want to know
-            more? <a href="https://www.mattmeadmpls.com/contact" target="_blank" class="resume">Let's connect.</a></h4>
-    </div>
-    <br><br>
-    <div>
-        <h2 class="bio-title">Education & Accomplishments</h2>
-        <hr width="15%">
-        <h3 class="bio-title">Univeristy of Minnesota - Twin Cities</h3>
-        <h4 class="edu">B.A. Art & Mass Communications</h4>
-        <h4 class="edu">Data Analytics and Visualization Program</h4>
-        <br>
-        <h3 class="bio-title">Udemy</h3>
-        <h4 class="edu"><a href="https://www.udemy.com/certificate/UC-5d29363d-b5b1-4a57-bfbe-9a42f683e1f0/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank" class="resume">The Complete 2020 Web Development Bootcamp</a></h4>
-        <h4 class="edu"><a href="https://www.udemy.com/certificate/UC-15934efb-1620-48bd-a724-72a329b056d0/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank" class="resume">SVG Animation - With HTML, CSS, & Javascript</a></h4>
-        <br>
-        <h3 class="bio-title">FAA</h3>
-        <h4 class="edu">Part 107 Drone License</h4>
+        <h4>B.A. Art & Mass Communications</h4>
+        <h4>Data Analytics and Visualization Program</h4>
 
-    </div>
-    <br>
-    <hr width="25%">
+        <h3>Udemy</h3>
+        <hr width="5%">
+        <h4>The Complete 2021 Web Development Bootcamp</h4>
+        <h4>SVG Animation - With HTML, CSS, & Javascript</h4>
 
-    <div>
-        <h3 class="resume-title">RESUME</h3>
-        <h4 class="resume-links">
-            <a class="resume" href="https://github.com/mmeadx/bio/blob/main/static/assets/MattMead-Data-021021.pdf" target="_blank">PDF </a>
-            | 
-            <a class="resume" href="https://secure-spire-30859.herokuapp.com/resumes" target="_blank" title="Link may load slowly - Heroku Server Must Start">JSON</a></h4>
-        <hr width="25%">
-    </div>
-    <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>I took the test. I'm an extrovert.</h3>
-        <br>
-        <a href="https://www.mattmeadmpls.com/about" target="_blank">
-            <p id="talk">let's talk</p>
-        </a>
-        <br><br><br>
+        <h3>FAA</h3>
+        <hr width="5%">
+        <h4>Part 107 Certified Drone Pilot</h4>
+
     </div>
 
 
-
-    <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/mattmeadmpls/" target="_blank"><img class="icon"
-                src="./static/assets/linkedin.png" alt="Matt Mead LinkedIn"></a>
-        <a class="footer-link" href="https://github.com/mmeadx" target="_blank"><img class="icon"
-                src="./static/assets/github.png" alt="Matt Mead Twitter"></a>
-        <a class="footer-link" href="https://www.mattmeadmpls.com" target="_blank"><img class="icon"
-                src="./static/assets/mattmeadicon.png" alt="Matt Mead MPLS"></a>
-        <p class="footerDate">Matt Mead ©</p>
+    <div class="contact">
+        <a href="mailto:mmeadx@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://twitter.com/mattmeadmpls"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/mattmeadmpls/"><i class="fab fa-twitter"></i></a>
+        <a href="http://www.mattmeadmpls.com"><i class="fab fa-squarespace"></i></a>
+        <a href="https://github.com/mmeadx"><i class="fab fa-github"></i></a>
     </div>
+
+</body>
+<footer class="footerDate"></footer>
 
 <!-- JS -->
 <script type="text/javascript" src="./static/js/footerDate.js"></script>
-
-
-</body>
+<script type="text/javascript" src="./static/js/darkMode.js"></script>
 
 </html>
