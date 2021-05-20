@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --primary-color: #222;
+    --secondary-color: #fff;
+    --third-color: #0a5385;
+}
+
+html i {
+    color: var(--third-color);
+}
+html.dark {
+    --primary-color: #fff;
+    --secondary-color: #222;
+    --third-color: #cfd306; 
+}
+
+html.dark {
+    background-color: #222;
+    color: var(--primary-color);
+}
+
+html.dark i {
+    color: var(--third-color);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #222;
+    position: sticky;
+    top: 0;
+    color: var(--secondary-color);
+    font-weight: lighter;
+    font-size: 1.5rem;
+    z-index: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.navbar a:hover {
+    font-style: italic;
+}
+
+#title {
+    font-weight: lighter;
+    font-size: 2.2rem;
+    padding: 0 10px;
+}
+
+.toggle {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.greeting {
+    margin-bottom: 0;
+}
+
+.name {
+    position: relative;
+}
+
+.name img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -180px;
+    left: 65%;
+    transition: 0.5s ease;
+}
+
+.name img:hover {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    left: 65%;
+    transition: 0.5s ease;
+}
+.name h1 {
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.name a, 
+.name a:visited {
+    text-decoration: none;
+    font-style: italic;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+.name a:hover {
+    font-style: normal;
+}
+
+.profile {
+    position: relative;
+}
+
+#profPic {
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.projects {
+    position: relative;
+    height: 70vh;
+    width: 90vh;
+    border: solid 2px #222;
+    margin-left: 50%;
+    margin-top: 30px;
+    transform: translateX(-50%);
+}
+.projects h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    position: absolute;
+}
+
+.about {
+    font-size: 1rem;
+    font-weight: lighter;
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.about h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.about h3 {
+    margin-bottom: 10px;
+}
+
+.about h4 {
+    margin: 0 0 5px 0;
+    color: #999;
+}
+.footerDate {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
