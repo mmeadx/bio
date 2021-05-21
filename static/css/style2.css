@@ -86,7 +86,7 @@ html.dark i {
     position: absolute;
     width: 300px;
     height: 300px;
-    bottom: 180px;
+    bottom: 100px;
     left: -165px;
     transition: 0.5s ease;
     z-index: 1;
@@ -96,7 +96,7 @@ html.dark i {
     position: absolute;
     width: 300px;
     height: 300px;
-    bottom: 180px;
+    bottom: 100px;
     left: -23px;
     transition: 0.5s ease;
     z-index: 1;
@@ -173,21 +173,6 @@ html.dark i {
     margin: 5px 5px 15px 5px;
 }
 
-.projects {
-    position: relative;
-    height: 70vh;
-    width: 90vh;
-    border: solid 2px #222;
-    margin-left: 50%;
-    margin-top: 30px;
-    transform: translateX(-50%);
-}
-.projects h1 {
-    font-size: 3rem;
-    font-weight: lighter;
-    position: absolute;
-}
-
 .about {
     font-size: 1rem;
     font-weight: lighter;
@@ -232,6 +217,44 @@ html.dark i {
     text-decoration: none;
     color: var(--social-color);
 }
+
+.projects a {
+    text-decoration: none;
+}
+
+.box {
+    background-color: var(--fourth-color);
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    width: 70%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.5s ease;
+}
+
+.box h2 {
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.box h4 {
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+.box.show {
+    transform: translateX(20%);
+}
+
+.footerDate {
+    margin-bottom: 15px;
+}
 @media (max-width: 600px) {
     .headshot {
         display: none;
@@ -240,7 +263,6 @@ html.dark i {
         display: none;
     }
 }
-
 
 @media (max-height: 700px) {
     .headshot {
