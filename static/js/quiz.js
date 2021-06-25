@@ -10,6 +10,14 @@ const quizData = [
         correct: "d",
     },
     {
+        question: "Which job title has Matt held?",
+        a: "Operations Manager",
+        b: "Customer Service Representative",
+        c: "High Level Cisco Engineer",
+        d: "All of the above",
+        correct: "d",
+    },
+    {
         question: "What programming language does Matt know?",
         a: "JavaScript",
         b: "Python",
@@ -18,7 +26,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "What are Matt's best soft skills?",
+        question: "What is Matt's best soft skill?",
         a: "Team Player",
         b: "Quick Learner",
         c: "Problem Solver",

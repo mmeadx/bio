@@ -14,7 +14,7 @@
 
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="../static/css/style2.css">
-    <link rel="stylesheet" type="text/css" href="../static/css/quiz-style.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/gitHubSearch.css">
 
 
     <!-- Load in Fonts -->
@@ -32,41 +32,23 @@
         <a href="../projects.html">projects</a>
         <a href="../index.html" id="title"> mm </a>
         <a href="../about.html">about</a>
-        <button class="toggle"><i class="fas fa-moon"></i></button>
+        <!-- <button class="toggle"><i class="fas fa-moon"></i></button> -->
     </div>
     <!-- NAVBAR END -->
 
-    <!-- Quiz Section -->
+   
+    <form class="user-form" id="form">
+        <input type="text" id="search" placeholder="Search a Github User">
+    </form>
 
-    <div class="quiz-container" id="quiz">
-        <h1 class="quiz-title">How well do you know Matt?</h1>
-        <div class="quiz-header">
-            <h2 id="question">Question Text</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="a" class="answer">
-                    <label for="a" id="aText">Answer</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id="bText">Answer</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id="cText">Answer</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id="dText">Answer</label>
-                </li>
-            </ul>
+    <main id="main"></main>
+
+    <small>Search widgit using the GitHub API</small>
+    <a href="../webDev.html" class="goBack">
+        <div>
+            <h2 class="backBtn">Go Back</h2>
         </div>
-        <button class="quiz" id="submit">Submit</button>
-    </div>
-
-    <!-- Quiz Section End -->
-
-    <a href="../webDev.html" class="goBack"><div><h2 class="backBtn">Go Back</h2></div></a>
+    </a>
 
 
     <div class="contact">
@@ -82,8 +64,11 @@
 </body>
 <footer class="footerDate"></footer>
 <!-- JS -->
-<script type="text/javascript" src="../static/js/quiz.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script type="text/javascript" src="../static/js/gitHubSearch.js"></script>
 <script type="text/javascript" src="../static/js/footerDate.js"></script>
-<script type="text/javascript" src="../static/js/darkMode.js"></script>
 
 </html>
