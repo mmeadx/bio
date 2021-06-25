@@ -255,6 +255,29 @@ html.dark i {
 .footerDate {
     margin-bottom: 15px;
 }
+
+a.goBack {
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.backBtn {
+    display: inline-block;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.backBtn:hover {
+    transform: scale(.98);
+    box-shadow: 2px 3px 10px rgba(0,0,0,.3);
+}
+
+.backBtn:active {
+    transform: scale(.95);
+}
+
 @media (max-width: 600px) {
     .headshot {
         display: none;
@@ -270,3 +293,4 @@ html.dark i {
         transition: 0.5s ease;
     }
 }
+
