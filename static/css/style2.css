@@ -202,6 +202,10 @@ html.dark i {
     text-justify: inter-word;
 }
 
+.about .broad-label {
+    text-align: center;
+}
+
 .about a {
     text-decoration: none;
     color: var(--third-color);
