@@ -278,6 +278,22 @@ a.goBack {
     transform: scale(.95);
 }
 
+button.resume {
+    padding: 10px;
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+button.resume:active {
+    transform: scale(0.95);
+}
+
 @media (max-width: 600px) {
     .headshot {
         display: none;
