@@ -2,7 +2,7 @@ console.log("skills.js running");
 
 const skillBox = document.getElementById('skillBox');
 
-const skills = ["Python", "JavaScript", "Node.js", "React.js", "DOM Manipulation", "npm", "Express.js", "jQuery", "d3.js", "EJS", "RESTful API", "Leaflet & GIS", "MatPlotLib", "Numpy", "Tweepy", "Beautiful Soup", "Pandas", "jupyter notebook", "SQLAlchemy", "Mongoose", "ETL Processes", "Git", "GitHub", "Tableau", "Heroku", "Bootstrap", "Advanced Excel", "Wordpress", "Big Data", "R", "Codepen.io", "VS Code", "Atom", "Adobe Creative Suite", "MongoDB", "SQL", "postgreSQL", "SQLite", "HTML5", "CSS3"]
+const skills = ["Python", "JavaScript", "AWS Cloud Services", "Node.js", "React.js", "DOM Manipulation", "npm", "Express.js", "jQuery", "d3.js", "EJS", "RESTful API", "Leaflet & GIS", "MatPlotLib", "Numpy", "Tweepy", "Beautiful Soup", "Pandas", "jupyter notebook", "SQLAlchemy", "Mongoose", "ETL Processes", "Git", "GitHub", "Tableau", "Heroku", "Bootstrap", "Advanced Excel", "Wordpress", "Big Data", "R", "Codepen.io", "VS Code", "Atom", "Adobe Creative Suite", "MongoDB", "SQL", "postgreSQL", "SQLite", "HTML5", "CSS3"]
 
 function showSkills(skillList) {
     
