@@ -14,7 +14,9 @@ if (currentTime >= 1 && currentTime <= 4) {
     greeting = "Good afternoon!";
 } else if (currentTime == 17) {
     greeting = "It's 5 o'clock - why are you still working?";
-} else {
+} else if (currentTime >=18 && currentTime <= 22) {
+    greeting = "The best time is between 6pm and 10pm - glad you're here!"
+}else {
     greeting = "Good evening!"
 }
 
